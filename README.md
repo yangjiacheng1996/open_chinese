@@ -10,6 +10,7 @@
 |谷歌翻墙浏览器高内核版|Windows|[点击下载](https://gitlab.com/zhifan999/fq/-/wikis/%E9%AB%98%E5%86%85%E6%A0%B8%E7%89%88)|
 |火狐翻墙浏览器高内核版|Windows|[点击下载](https://gitlab.com/zhifan999/fq/-/wikis/%E7%81%AB%E7%8B%90%E9%AB%98%E5%86%85%E6%A0%B8%E7%89%88)|
 |Supermium翻墙浏览器|Windows|[点击下载](https://gitlab.com/zhifan999/fq/-/wikis/Supermium%E7%BF%BB%E5%A2%99%E6%B5%8F%E8%A7%88%E5%99%A8)|
+
 其他小白工具请访问Github公益项目 [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac)
 
 # 自建自用VPN
@@ -21,7 +22,7 @@
 
 ### 隐匿代理协议（专为突破网络限制设计）​
 如果你想要加密你的网络，流量伪装，或者突破国家对网络的封禁和限速，则需要隐匿代理协议。<br>常见的隐匿代理协议包括V2Ray (VMess/VLESS)​、ShadowSocksR、trojan、Hysteria、NaiveProxy等等。<br>
-想进一步了解各种隐匿代理协议的区别，请阅读 [不同协议的区别和适用场景](https://github.com/yangjiacheng1996/open_chinese/docs/protocols.md)
+想进一步了解各种隐匿代理协议的区别，请阅读 [不同协议的区别和适用场景](https://github.com/yangjiacheng1996/open_chinese/blob/main/docs/protocols.md)
 
 ### trojan后端部署
 如果你使用上述的小白翻墙浏览器，高峰时期卡顿，而且如果你在公司网络中使用这种应用程序，会被监控并收到公司警告。想要加密你的电脑中所有流量，就需要操作系统级别的加密手段。使用加密客户端并配置全局代理是个不错的方法。我们先使用海外服务器部署代理协议后端服务。考虑到目前中国网警擅长捕捉SSR协议的流量，并且家用梯子一般只需要TCP加密，不需要兼容冷门协议，所以我推荐部署trojan协议！trojan协议是一个基于https的加密技术，无法被中国网警截获，非常安全！以下是部署trojan后端的方法<br>
@@ -64,7 +65,7 @@ V2ray系列客户端可以配置多种协议的代理后端服务器，你可以
 
 
 # 全屋魔法
-有些极客不满足于单台电脑翻墙。想要实现全屋魔法，只要家里的任何设备接入路由器WIFI或网口就可以畅游全世界。我使用一个低功耗x86小主机安装istoreOS和Passwall插件实现这个需求，[笔记链接](https://github.com/yangjiacheng1996/open_chinese/docs/homemagic.md)
+有些极客不满足于单台电脑翻墙。想要实现全屋魔法，只要家里的任何设备接入路由器WIFI或网口就可以畅游全世界。我使用一个低功耗x86小主机安装istoreOS和Passwall插件实现这个需求，[笔记链接](https://github.com/yangjiacheng1996/open_chinese/blob/main/docs/homemagic.md)
 
 # 飞机场老板
 有些人手头上有不止一台海外云服务器，想要建一个飞机场，靠翻墙赚点外快。方案在设计中。<br>
